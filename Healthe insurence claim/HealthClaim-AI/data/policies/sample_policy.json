@@ -1,0 +1,77 @@
+{
+  "policies": [
+    {
+      "policy_number": "POL-2024-001",
+      "holder_name": "John Michael Smith",
+      "holder_id": "MEM-10045789",
+      "coverage_type": "Comprehensive",
+      "deductible": 500.00,
+      "max_coverage": 100000.00,
+      "copay_percent": 10,
+      "effective_date": "2024-01-01",
+      "expiry_date": "2024-12-31",
+      "is_active": true,
+      "covered_procedures": [
+        "99213", "99214", "99215",
+        "71046", "72148", "93000",
+        "27447", "43239", "45378",
+        "36415", "80053", "85025",
+        "90686", "96372", "97110"
+      ],
+      "excluded_conditions": [
+        "Cosmetic surgery",
+        "Elective weight-loss procedures",
+        "Experimental treatments",
+        "Pre-existing dental conditions",
+        "Vision correction surgery"
+      ]
+    },
+    {
+      "policy_number": "POL-2024-002",
+      "holder_name": "Maria Elena Garcia",
+      "holder_id": "MEM-20098234",
+      "coverage_type": "Basic",
+      "deductible": 2000.00,
+      "max_coverage": 30000.00,
+      "copay_percent": 25,
+      "effective_date": "2024-03-01",
+      "expiry_date": "2025-02-28",
+      "is_active": true,
+      "covered_procedures": [
+        "99213", "99214",
+        "71046", "93000",
+        "36415", "80053", "85025",
+        "90686", "96372"
+      ],
+      "excluded_conditions": [
+        "Cosmetic surgery",
+        "Elective procedures",
+        "Experimental treatments",
+        "Mental health counselling",
+        "Physical therapy beyond 10 sessions"
+      ]
+    },
+    {
+      "policy_number": "POL-2024-003",
+      "holder_name": "Robert James Thornton",
+      "holder_id": "MEM-30071856",
+      "coverage_type": "Premium",
+      "deductible": 0.00,
+      "max_coverage": 500000.00,
+      "copay_percent": 0,
+      "effective_date": "2024-01-01",
+      "expiry_date": "2024-12-31",
+      "is_active": true,
+      "covered_procedures": [
+        "99213", "99214", "99215", "99232", "99233",
+        "71046", "72148", "72141", "74177", "93000", "93306",
+        "27447", "27130", "43239", "45378", "47562",
+        "36415", "80053", "80061", "85025", "86900",
+        "90686", "96372", "97110", "97530", "99406"
+      ],
+      "excluded_conditions": [
+        "Cosmetic surgery"
+      ]
+    }
+  ]
+}

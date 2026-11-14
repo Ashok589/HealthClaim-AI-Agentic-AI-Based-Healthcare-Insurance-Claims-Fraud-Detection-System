@@ -1,0 +1,14 @@
+2026-11-14 20:15:58 | INFO     | app.main | HealthClaim AI starting up…
+2026-11-14 20:15:58 | INFO     | app.main | Database tables created/verified.
+2026-11-14 20:16:00 | INFO     | app.main | ChromaDB initialised.
+2026-11-14 20:16:00 | WARNING  | app.main | fraud_model.pkl not found; running without ML model.
+2026-11-14 20:16:00 | WARNING  | app.main | Policy seeding skipped: string indices must be integers, not 'str'
+2026-11-14 20:25:09 | INFO     | app.main | HealthClaim AI starting up…
+2026-11-14 20:25:09 | INFO     | app.main | Database tables created/verified.
+2026-11-14 20:25:10 | INFO     | app.main | ChromaDB initialised.
+2026-11-14 20:25:10 | WARNING  | app.main | fraud_model.pkl not found; running without ML model.
+2026-11-14 20:25:10 | WARNING  | app.main | Policy seeding skipped: string indices must be integers, not 'str'
+2026-11-14 20:38:19 | WARNING  | app.main | Workflow invocation failed (No module named 'app.workflows.claim_workflow'); applying heuristic.
+2026-11-14 20:38:19 | INFO     | app.main | Claim 6b50a0d8-3280-4aa0-871c-0ddb09eaba52 processed → ClaimStatus.APPROVED
+2026-11-14 20:38:19 | INFO     | app.main | PDF report generated at data\claims\6b50a0d8-3280-4aa0-871c-0ddb09eaba52\report.pdf
+2026-11-14 20:38:19 | INFO     | app.main | Document 2a7197e3-839a-4f16-8a59-0bc55333c5c9 extraction complete (440 chars).

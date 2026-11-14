@@ -1,0 +1,4 @@
+2026-11-14 20:15:58 | INFO     | app.database.db | Creating database tables (if not exist) on: sqlite:///./healthclaim.db
+2026-11-14 20:15:58 | INFO     | app.database.db | Database tables ready.
+2026-11-14 20:25:09 | INFO     | app.database.db | Creating database tables (if not exist) on: sqlite:///./healthclaim.db
+2026-11-14 20:25:09 | INFO     | app.database.db | Database tables ready.
